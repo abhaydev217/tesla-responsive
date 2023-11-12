@@ -1,0 +1,20 @@
+.parent{width: 100vw; height: 100vh;
+        background-color: brown;
+        display:grid;
+        grid-template-rows:1fr 12fr;
+        flex-wrap: wrap;
+        }
+
+.parentone{background-color: aqua;
+           
+           gap: 10px;
+           
+          } 
+.parentonespan1{height: 30px;
+               background-color: rgb(87, 165, 42);
+              
+                }  
+.parentonespan2{height: fit-content;
+                background-color: chartreuse;}                      
+
+.parenttwo{background-color: blue;}
